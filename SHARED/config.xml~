@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<root>
+	<master>
+	<servername> ubuntu2 </servername2>
+	<instance> 1 </instance>
+	</master>
+	
+<banksservers>
+<bankserver name="ubuntu2" instance="1">
+	<name> HSBC </name>
+<accounts max ="3">
+	<account id="10002000">
+	<accountnumber>0</accountnumber>
+	<accountbalance>200</accountbalance>
+	</account>
+
+	<account id="10002000">
+	<accountnumber>1</accountnumber>
+	<accountbalance>500</accountbalance>
+	</account>
+
+	<account id="10005000">
+	<accountnumber>2</accountnumber>
+	<accountbalance>1253</accountbalance>
+	</account>
+</accounts>
+</bankserver>
+
+<bankserver name="ubuntu2" instance="1">
+	<name> Loyds </name>
+<accounts max ="3">
+	<account id="10002000">
+	<accountnumber>0</accountnumber>
+	<accountbalance>10000</accountbalance>
+	</account>
+
+	<account id="10005000">
+	<accountnumber>1</accountnumber>
+	<accountbalance>354</accountbalance>
+	</account>
+
+	<account id="10005000">
+	<accountnumber>2</accountnumber>
+	<accountbalance>23000</accountbalance>
+	</account>
+</accounts>
+</bankserver>
+<bankserver name="ubuntu2" instance="1">
+	<name> Barclays </name>
+<accounts max ="3">
+	<account id="10002000">
+	<accountnumber>0</accountnumber>
+	<accountbalance>10000</accountbalance>
+	</account>
+
+	<account id="10002000">
+	<accountnumber>1</accountnumber>
+	<accountbalance>354</accountbalance>
+	</account>
+
+	<account id="10005000">
+	<accountnumber>2</accountnumber>
+	<accountbalance>23000</accountbalance>
+	</account>
+</accounts>
+</bankserver>
+
+</banksservers>
+<accounts>
+<account id="10002000">
+</accounts>
+
+
+</root>
